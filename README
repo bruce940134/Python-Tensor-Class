@@ -1,0 +1,5 @@
+The class creates a tensor with the given data and shape.
+
+Data and shape should be input as lists, and if not, the class will return a message indicating the error.
+
+The class will create a tensor with the data and shape lists, and will trim the data if there are too many input data, or fill the tensor with zeros if there isn't enough data.
