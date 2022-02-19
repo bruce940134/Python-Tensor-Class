@@ -2,4 +2,8 @@ The class creates a tensor with the given data and shape.
 
 Data and shape should be input as lists, and if not, the class will return a message indicating the error.
 
+Data and shape inputs are given as lists of numbers. Data can be any number (int or float), but shape needs to be a list of positive integers.
+
+Data and shape inputs can be lists of any length.
+
 The class will create a tensor with the data and shape lists, and will trim the data if there are too many input data, or fill the tensor with zeros if there isn't enough data.
